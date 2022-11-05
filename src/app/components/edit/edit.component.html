@@ -1,0 +1,21 @@
+<form action="" (ngSubmit)="onSubmit()">
+    <h2>Cambiar artículo</h2>
+
+    <div>
+        <label for="">Nombre del Artículo</label>
+        <input type="text" name="title" id="" [(ngModel)]="item.title">
+    </div>
+
+    <div>
+        <label for="">Precio</label>
+        <input type="text" name="price" id="" [(ngModel)]="item.price">
+    </div>
+
+    <div>
+        <label for="">Cantidad</label>
+        <input type="text" name="quantity" id="" [(ngModel)]="item.quantity">
+    </div>
+
+    <input type="submit" id="cambiar" value="Cambiar">
+
+</form>

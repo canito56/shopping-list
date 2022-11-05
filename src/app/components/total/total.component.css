@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.titulos {
+    display: flex;
+}
+
+#art {
+    margin-left: 10px;
+}
+
+#pre {
+    margin-left: 275px;
+}
+
+#can {
+    margin-left: 22px;
+}
+
+#tot {
+    margin-left: 22px;
+}
